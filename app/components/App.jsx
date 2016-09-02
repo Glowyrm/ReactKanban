@@ -15,6 +15,10 @@ export default class App extends React.Component {
         {
           id: uuid.v4(),
           task: 'Do laundry'
+        },
+        {
+          id: uuid.v4(),
+          task: 'Implement altFlux'
         }
       ]
     };
